@@ -151,3 +151,4 @@ Análise léxica e sintática para uma versão simplificada de pascal.
   <tbody>
 </table>
 
+<h4>3 - Lista de exemplos de cada uma das características da linguagem (tabela 1)</h4>
