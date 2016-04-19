@@ -1,7 +1,7 @@
 # pascalbrAnalise
 Análise léxica e sintática para uma versão simplificada de pascal.
 
-1 - Características da linguagem (RECONHECER)
+1 - Características da linguagem (RECONHECER).
 Sentenças de declaração de variáveis dos tipos inteiro e real (INTEGER, FLOAT)
 Sentenças de atribuição :=
 Sentenças SE ENTÃO SENÃO (IF [ELSE])
