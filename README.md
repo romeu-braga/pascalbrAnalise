@@ -11,31 +11,31 @@ Análise léxica e sintática para uma versão simplificada de pascal.
   <thead>
   <tbody>
     <tr>
-      <td>Sentenças de declaração de variáveis dos tipos inteiro e real</td>
+      <td>Sentenças de declaração de variáveis dos tipos <b>inteiro e real</b></td>
       <td>Não</td>
     </tr>
     <tr>
-      <td>Sentenças de atribuição :=</td>
+      <td>Sentenças de atribuição</td>
       <td>Não</td>
     </tr>
     <tr>
-      <td>Sentenças SE ENTÃO SENÃO</td>
+      <td>Sentenças <b>se então senão</b></td>
       <td>Não</td>
     </tr>
     <tr>
-      <td>Sentenças CASO</td>
+      <td>Sentenças <b>caso</b></td>
       <td>Não</td>
     </tr>
     <tr>
-      <td>Sentenças Enquanto</td>
+      <td>Sentenças <b>enquanto</b></td>
       <td>Não</td>
     </tr>
     <tr>
-      <td>Sentenças Repita até</td>
+      <td>Sentenças <b>repita ate</b></td>
       <td>Não</td>
     </tr>
     <tr>
-      <td>Sentenças Para</td>
+      <td>Sentenças <b>para</b></td>
       <td>Não</td>
     </tr>
   <tbody>
