@@ -41,7 +41,7 @@ Análise léxica e sintática para uma versão simplificada de pascal.
   <tbody>
 </table>
 
-<h4>Características da linguagem a serem reconhecidas na análise</h4>
+<h4>Palavras reservadas da linguagem</h4>
 <table>
   <thead>
     <tr>
