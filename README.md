@@ -48,7 +48,7 @@ Análise léxica e sintática para uma versão simplificada de pascal.
       <th>Palavras reservadas</th>
       <th>Nome do TOKEN</th>
       <th>Código do TOKEN</th>
-      <th>STATUS</th>
+      <th>Status</th>
     </tr>
   <thead>
   <tbody>
