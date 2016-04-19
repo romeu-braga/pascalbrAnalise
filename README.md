@@ -27,7 +27,7 @@ Análise léxica e sintática para uma versão simplificada de pascal.
       <td>Não</td>
     </tr>
     <tr>
-      <td>Sentenças Enquanto (WHILE)</td>
+      <td>Sentenças Enquanto</td>
       <td>Não</td>
     </tr>
     <tr>
