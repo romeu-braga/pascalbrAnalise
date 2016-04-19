@@ -152,3 +152,5 @@ Análise léxica e sintática para uma versão simplificada de pascal.
 </table>
 
 <h4>3 - Lista de exemplos de cada uma das características da linguagem (tabela 1)</h4>
+<h5>3.1 - Sentenças de declaração de variáveis dos tipos inteiro e real</h5>
+var<br> &nbsp;&nbsp;&nbsp; ate, x, soma, i : integer;<br>&nbsp;&nbsp;&nbsp; sub, k, teste, j : real;
