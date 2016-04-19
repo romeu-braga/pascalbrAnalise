@@ -165,6 +165,6 @@ x*=b; //aplicavel a todos os operadores<br>
 x := 1 + b;<br>
 X := A + 0.2;<br>
 x-=.3; //aplicavel a todos os operadores<br>
-<i>As expressões podem ser compostas</i><br>
+<i>- As expressões podem ser compostas</i><br>
 expressao = a + 2 * (7/c) + ((k + 3.3) - (j / a))<br>
-<i>Os operadores considerados são (+, -, *, /)</i><br>
+<i>- Os operadores considerados são (+, -, *, /)</i><br>
