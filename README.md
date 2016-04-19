@@ -159,9 +159,9 @@ var
 <br>&nbsp;&nbsp;&nbsp; sub, k, teste, j : real;
 <br>&nbsp;&nbsp;&nbsp; sub, k, teste, j : real = 3.3;
 <h5>3.2 - Sentenças de atribuição</h5>
-x := a + b;
-X := A + B;
-x*=b; //aplicavel a todos os operadores
-x := 1 + b;
-X := A + 0.2;
+x := a + b;<br>
+X := A + B;<br>
+x*=b; //aplicavel a todos os operadores<br>
+x := 1 + b;<br>
+X := A + 0.2;<br>
 x/=.3; //aplicavel a todos os operadores
