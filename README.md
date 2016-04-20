@@ -157,7 +157,7 @@ var
 <br> &nbsp;&nbsp;&nbsp; ate, x, soma, i : integer;
 <br> &nbsp;&nbsp;&nbsp; ate, x, soma, i : integer = 1;
 <br>&nbsp;&nbsp;&nbsp; sub, k, teste, j : real;
-<br>&nbsp;&nbsp;&nbsp; sub, k, teste, j : real = 3.3;
+<br>&nbsp;&nbsp;&nbsp; sub, k, teste, j : real = 3.3;<br>
 <h5>3.2 - Sentenças de atribuição</h5>
 x := a + b;<br>
 X := A + B;<br>
@@ -165,6 +165,31 @@ x*=b; //aplicavel a todos os operadores<br>
 x := 1 + b;<br>
 X := A + 0.2;<br>
 x-=.3; //aplicavel a todos os operadores<br>
-<i>- As expressões podem ser compostas</i><br>
+<b>- As expressões podem ser compostas</b><br>
 expressao = a + 2 * (7/c) + ((k + 3.3) - (j / a))<br>
-<i>- Os operadores considerados são (+, -, *, /)</i><br>
+<b>- Os operadores considerados são (+, -, *, /)</b><br>
+<h5>Setenças <b>Se Então Senão</b></h5>
+<b>- Apenas Se Então</b><br>
+if (CONDIÇÃO) then <br>
+COMANDO;<br><br>
+if (CONDIÇÃO) then <br>
+begin<br>
+COMANDO;<br>
+COMANDO;<br>
+end;<br><br>
+<b>- Se Então Senão</b><br>
+if (CONDIÇÃO) then<br>
+COMANDO<br> //não tem ; aqui (só no final do else)
+else<br>
+COMANDO;<br><br>
+if (CONDIÇÃO) then<br>
+begin<br>
+COMANDO;<br>
+COMANDO;<br>
+end<br>
+else<br>
+begin<br>
+COMANDO;<br>
+COMANDO;<br>
+end;<br><br>
+
