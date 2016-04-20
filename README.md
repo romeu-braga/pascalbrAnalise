@@ -179,7 +179,7 @@ COMANDO;<br>
 end;<br><br>
 <b>- Se Então Senão</b><br>
 if (CONDIÇÃO) then<br>
-COMANDO<br> //não tem ; aqui (só no final do else)
+COMANDO //não tem ; aqui (só no final do else)<br>
 else<br>
 COMANDO;<br><br>
 if (CONDIÇÃO) then<br>
