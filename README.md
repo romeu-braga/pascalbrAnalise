@@ -168,7 +168,7 @@ x-=.3; //aplicavel a todos os operadores<br>
 <b>- As expressões podem ser compostas</b><br>
 expressao = a + 2 * (7/c) + ((k + 3.3) - (j / a))<br>
 <b>- Os operadores considerados são (+, -, *, /)</b><br>
-<h5>Setenças <b>Se Então Senão</b></h5>
+<h5>3.3 - Setenças <b>Se Então Senão</b></h5>
 <b>- Apenas Se Então</b><br>
 if (CONDIÇÃO) then <br>
 COMANDO;<br><br>
