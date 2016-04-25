@@ -152,4 +152,4 @@ Análise léxica e sintática para uma versão simplificada de pascal.
 </table>
 
 <h4>3 - Gramática </h4>
-arquivo pascalebnf.doc
+arquivo pascalebnf.pdf
