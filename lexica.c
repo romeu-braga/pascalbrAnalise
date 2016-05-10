@@ -1,34 +1,118 @@
 #include "cabecalho.h"
 
-/* lex - um analisador léxico simples para expressões aritméticas */
 int lex() {
     lexLen = 0;
     getNonBlank();
+    int linhaLexema = linha;
+    int colunaLexema = coluna;
+
     switch (charClass) {
-    //reconhecer identificadores
     case LETTER :
-        addChar();
-        getChar();
-        while(charClass == LETTER || charClass == DIGIT) {
-            addChar();
-            getChar();
+        switch(nextChar) {
+            case 'p' :
+                addChar();
+                getChar();
+                if(nextChar == 'r') {
+                    recPRograma();
+                } else if(nextChar == 'a') {
+                    recPAra();
+                } else {
+                    recIdentificador();
+                }
+                break;
+            case 'i' :
+                addChar();
+                getChar();
+                if(nextChar == 'n') {
+                    recIN();
+                } else {
+                    recIdentificador();
+                }
+                break;
+            case 'f' :
+                addChar();
+                getChar();
+                if(nextChar == 'a') {
+                    recFAca();
+                } else if(nextChar == 'i') {
+                    recFIm();
+                } else {
+                    recIdentificador();
+                }
+                break;
+            case 's' :
+                addChar();
+                getChar();
+                if(nextChar == 'e') {
+                    addChar();
+                    getChar();
+                    nextToken = SE_CODE;
+                    if(nextChar == 'n') {
+                        recSeNao();
+                    }
+                } else {
+                    recIdentificador();
+                }
+                break;
+            case 'e' :
+                addChar();
+                getChar();
+                if(nextChar == 'n') {
+                    recEN();
+                } else if(nextChar == 's') {
+                    recEScolha();
+                } else {
+                    recIdentificador();
+                }
+                break;
+            case 'r' :
+                addChar();
+                getChar();
+                if(nextChar == 'e') {
+                    recRE();
+                } else {
+                    recIdentificador();
+                }
+                break;
+            case 'a' :
+                addChar();
+                getChar();
+                if(nextChar == 't') {
+                    recATe();
+                } else {
+                    recIdentificador();
+                }
+                break;
+            case 'v' :
+                addChar();
+                getChar();
+                if(nextChar == 'a') {
+                    recVAr();
+                } else {
+                    recIdentificador();
+                }
+                break;
+            case 'c' :
+                addChar();
+                getChar();
+                if(nextChar == 'a') {
+                    recCAso();
+                } else {
+                    recIdentificador();
+                }
+                break;
+            default :
+                addChar();
+                getChar();
+                recIdentificador();
+                break;
         }
-        nextToken = IDENT;
         break;
-    //reconhecer literais inteiros
     case DIGIT :
-        addChar();
-        getChar();
-        while(charClass == DIGIT) {
-            addChar();
-            getChar();
-        }
-        nextToken = INT_LIT;
+        recNumeros();
         break;
-    //parênteses e operadores
     case UNKNOWN :
-        lookup(nextChar);
-        getChar();
+        recDelimitadoresOperadores();
         break;
     case EOF :
         nextToken = EOF;
@@ -39,7 +123,7 @@ int lex() {
         break;
     }
 
-    printf("next token is: %d, next lexeme is %s\n", nextToken, lexeme);
+    printf("token: %02d, lexema: %s (%d, %d)\n", nextToken, lexeme, linhaLexema, colunaLexema);
     return nextToken;
 
 }
