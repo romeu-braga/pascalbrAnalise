@@ -1,16 +1,15 @@
 #include "cabecalho.h"
 
-/* um analisador léxico e analisador sintático simples para expressões aritméticas simples */
-/* Função principal */
 void main() {
-    /* Abrir o arquivo de dados de entrada e processar seu conteúdo */
-    if((in_fp = fopen("testeanalise.txt", "r")) == NULL)
-        printf("ERROR - não foi possível abrir o arquivo\n");
+    if((in_fp = fopen("programa.txt", "r")) == NULL) {
+        printf("ERROR - nÃ£o foi possÃ­vel abrir o arquivo\n");
+    }
     else {
+        linha = 0;
+        coluna = 1;
         getChar();
         do {
             lex();
-        } while(nextToken != EOF);
+        } while(nextToken != EOF && nextToken != INVALID_TOKEN); //ele para se o token for invalido. dv 1
     }
 }
-
