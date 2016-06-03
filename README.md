@@ -148,16 +148,23 @@ Análise léxica e sintática para uma versão simplificada de pascal.
       <td>46</td>
       <td>Sim</td>
     </tr>
+    <tr>
+      <td>nao</td>
+      <td>NAO_CODE</td>
+      <td>47</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td>E_CODE</td>
+      <td>48</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <td>ou</td>
+      <td>OU_CODE</td>
+      <td>49</td>
+      <td>Sim</td>
+    </tr>
   <tbody>
 </table>
-
-<h4>3 - Gramática </h4>
-arquivo pascalebnf.pdf
-
-<h4>4 - Pendente análise léxica </h4>
-- Incluir operador NOT, AND e OR (traduzir e implementar)
-- Reconhecer sinais + e - dos números com sinais (+7 -8 +3.3 -5.02)
-- Não há necessidade de implementar o fator escalar nos floats e inteiros
-
-<h4>5 - Pendente análise sintática </h4>
-- Tudo
