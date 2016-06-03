@@ -134,7 +134,7 @@ void programaPascal() {
     if(nextToken == POINT) {
         lex();
         if(nextToken == EOF) {
-            printf("\nPROGRAMA SINTATICAMENTE CORRETO.\n");
+            printf("\nFIM.\n");
         } else {
             printf(">>> ERROR: instrucoes apos o ponto final\n");
         }
