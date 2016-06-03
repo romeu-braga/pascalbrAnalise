@@ -8,8 +8,7 @@ void main() {
         linha = 0;
         coluna = 1;
         getChar();
-        do {
-            lex();
-        } while(nextToken != EOF && nextToken != INVALID_TOKEN); //ele para se o token for invalido. dv 1
+        lex();
+        programaPascal();
     }
 }
