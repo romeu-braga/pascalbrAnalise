@@ -82,6 +82,7 @@ int recDelimitadoresOperadores() {
         case ':' :
             addChar();
             getChar();
+            nextToken = COLON;
             if(nextChar == '=') {
                 addChar();
                 nextToken = ASSIGN_OP;
@@ -90,7 +91,7 @@ int recDelimitadoresOperadores() {
             break;
         default :
             addChar();
-            //getChar(); //O analisador lÈxico original n„o analisava o restante se encontrasse erro.
+            getChar(); //O analisador l√©xico original n√£o analisava o restante se encontrasse erro.
             nextToken = INVALID_TOKEN;
             break;
     }
