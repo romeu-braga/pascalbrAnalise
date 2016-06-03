@@ -61,6 +61,8 @@ int lex() {
                     recEN();
                 } else if(nextChar == 's') {
                     recEScolha();
+                } else if(fimPalavraReservada() == 1) {
+                    nextToken = E_CODE;
                 } else {
                     recIdentificador();
                 }
@@ -101,6 +103,24 @@ int lex() {
                     recIdentificador();
                 }
                 break;
+            case 'o' :
+                addChar();
+                getChar();
+                if(nextChar == 'u') {
+                    recOU();
+                } else {
+                    recIdentificador();
+                }
+                break;
+            case 'n' :
+                addChar();
+                getChar();
+                if(nextChar == 'a') {
+                    recNAo();
+                } else {
+                    recIdentificador();
+                }
+                break;
             default :
                 addChar();
                 getChar();
@@ -123,7 +143,7 @@ int lex() {
         break;
     }
 
-    printf("token: %02d, lexema: %s (%d, %d)\n", nextToken, lexeme, linhaLexema, colunaLexema);
+    printf("token: %02d, lexema: '%s' (%d, %d)\n", nextToken, lexeme, linhaLexema, colunaLexema);
     return nextToken;
 
 }
