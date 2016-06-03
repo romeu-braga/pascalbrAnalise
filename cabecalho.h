@@ -28,6 +28,7 @@ FILE *in_fp;
 #define RIGHT_PAREN 05 //OK
 #define COMMA 06 //OK
 #define POINT 07 //OK
+#define COLON 8 //OK
 
 // Operadores
 #define ASSIGN_OP 11 //OK
@@ -70,6 +71,9 @@ FILE *in_fp;
 #define REPITA_CODE 74 //OK
 #define ATE_CODE 75 //OK
 #define PARA_CODE 76 //OK
+#define E_CODE 77 //OK
+#define OU_CODE 78 //OK
+#define NAO_CODE 79 //OK
 
 // Outros
 #define INVALID_TOKEN 98
