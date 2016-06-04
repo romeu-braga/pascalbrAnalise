@@ -1,6 +1,6 @@
 #include "cabecalho.h"
 
-void main() {
+int main() {
     
     out = fopen("resultado.txt","w");
     
@@ -14,4 +14,8 @@ void main() {
         lex();
         programaPascal();
     }
+    
+    
+    return 0;
+    
 }
