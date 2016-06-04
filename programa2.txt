@@ -1,6 +1,6 @@
 programa programapronto;
 
-    var final : inteiro;        
+    var final : inteiro     
 
 inicio
 

@@ -127,6 +127,8 @@ void cabecalho() {
                     lex();
                 }
             }
+        } else {
+            ERROR(SEMICOLON);
         }
     }
     

@@ -10,30 +10,7 @@ token: 41, lexema: 'final' (3, 9)
 token: 08, lexema: ':' (3, 15)
 <--- fim analise <listaIdentificadores>
 token: 65, lexema: 'inteiro' (3, 17)
-token: 03, lexema: ';' (3, 24)
-<--- fim analise <declaracaoVariaveis>
 token: 62, lexema: 'inicio' (5, 1)
-<--- fim analise <cabecalho>
----> analisando <blocoPascal>
-token: 41, lexema: 'final' (7, 1)
----> analisando <listaComandos>
----> analisando <comando>
-token: 11, lexema: ':=' (7, 7)
-token: 51, lexema: '1' (7, 10)
----> analisando <expressao>
----> analisando <expresaoSimples>
----> analisando <termo>
----> analisando <fator>
-token: 03, lexema: ';' (7, 11)
-<--- fim analise <fator>
-<--- fim analise <termo>
-<--- fim analise <expressaoSimples>
-<--- fim analise <expressao>
-<--- fim analise <comando>
-token: 63, lexema: 'fim' (9, 1)
-<--- fim analise <listaComandos>
-token: 07, lexema: '.' (9, 4)
-<--- fim analise <blocoPascal>
-token: -1, lexema: 'EOF' (9, 5)
-###### FIM DO PROGRAMA. ######
-<--- fim analise <programaPascal>
+<--- fim analise <declaracaoVariaveis>
+
+>>> ERROR: Esperava algo como 3 e obteve 62 na linha 5 coluna 1
