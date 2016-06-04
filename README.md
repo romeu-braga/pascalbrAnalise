@@ -1,5 +1,5 @@
 # pascalbrAnalise
-Análise léxica e sintática para uma versão simplificada de pascal.
+Análise léxica e sintática para uma versão simplificada de pascal conforme 2ebnfpascalbr.pdf.
 
 <h4>1 - Características da linguagem a serem reconhecidas na análise</h4>
 <table>
