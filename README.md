@@ -1,5 +1,6 @@
 # pascalbrAnalise
 Análise léxica e sintática para uma versão simplificada de pascal conforme 2ebnfpascalbr.pdf.
+Implementada em C conforme diretrizes do livro Conceitos de Linguagens de Programação de Robert W. Sebesta.
 
 <h4>1 - Características da linguagem a serem reconhecidas na análise</h4>
 <table>
