@@ -1,9 +1,11 @@
 programa programapronto;
 
-    var final : inteiro     
+    var final : inteiro;
+        romeu : real;
 
 inicio
 
 final := 1;
+
         
 fim.
