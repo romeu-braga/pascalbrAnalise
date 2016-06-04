@@ -1,47 +1,568 @@
 token: 61, lexema: 'programa' (1, 1)
 ---> analisando <programaPascal>
-token: 41, lexema: 'programapronto' (1, 10)
-token: 03, lexema: ';' (1, 24)
-token: 64, lexema: 'var' (3, 5)
+token: 41, lexema: 'trabalhoparadigmas' (1, 10)
+token: 04, lexema: '(' (1, 28)
+---> analisando <parametros>
+token: 41, lexema: 'analiselexica' (1, 29)
+---> analisando <listaIdentificadores>
+token: 06, lexema: ',' (1, 42)
+token: 41, lexema: 'analisesintatica' (1, 44)
+token: 05, lexema: ')' (1, 60)
+<--- fim analise <listaIdentificadores>
+token: 03, lexema: ';' (1, 61)
+<--- fim analise <parametros>
+token: 64, lexema: 'var' (4, 5)
 ---> analisando <cabecalho>
-token: 41, lexema: 'final' (3, 9)
+token: 41, lexema: 'alpha' (4, 9)
 ---> analisando <declaracaoVariaveis>
 ---> analisando <listaIdentificadores>
-token: 08, lexema: ':' (3, 15)
+token: 06, lexema: ',' (4, 14)
+token: 41, lexema: 'beta' (4, 16)
+token: 08, lexema: ':' (4, 21)
 <--- fim analise <listaIdentificadores>
-token: 65, lexema: 'inteiro' (3, 17)
-token: 03, lexema: ';' (3, 24)
+token: 65, lexema: 'inteiro' (4, 23)
+token: 03, lexema: ';' (4, 30)
 <--- fim analise <declaracaoVariaveis>
-token: 41, lexema: 'romeu' (4, 9)
+token: 41, lexema: 'delta' (5, 9)
 ---> analisando <declaracaoVariaveis>
 ---> analisando <listaIdentificadores>
-token: 08, lexema: ':' (4, 15)
+token: 06, lexema: ',' (5, 14)
+token: 41, lexema: 'romeo' (5, 16)
+token: 08, lexema: ':' (5, 22)
 <--- fim analise <listaIdentificadores>
-token: 66, lexema: 'real' (4, 17)
-token: 03, lexema: ';' (4, 21)
+token: 66, lexema: 'real' (5, 24)
+token: 03, lexema: ';' (5, 28)
 <--- fim analise <declaracaoVariaveis>
-token: 62, lexema: 'inicio' (6, 1)
+token: 62, lexema: 'inicio' (7, 5)
 <--- fim analise <cabecalho>
 ---> analisando <blocoPascal>
-token: 41, lexema: 'final' (8, 1)
+token: 70, lexema: 'caso' (9, 9)
 ---> analisando <listaComandos>
 ---> analisando <comando>
-token: 11, lexema: ':=' (8, 7)
-token: 51, lexema: '1' (8, 10)
+token: 79, lexema: 'nao' (9, 14)
 ---> analisando <expressao>
 ---> analisando <expresaoSimples>
 ---> analisando <termo>
 ---> analisando <fator>
-token: 03, lexema: ';' (8, 11)
+token: 04, lexema: '(' (9, 17)
+---> analisando <fator>
+token: 41, lexema: 'alpha' (9, 18)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 35, lexema: '>=' (9, 23)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+token: 41, lexema: 'beta' (9, 25)
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 05, lexema: ')' (9, 29)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+token: 71, lexema: 'escolha' (9, 31)
+<--- fim analise <fator>
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+token: 51, lexema: '5' (10, 13)
+---> analisando <listaOpcoes>
+---> analisando <opcaoCaso>
+---> analisando <constante>
+token: 06, lexema: ',' (10, 14)
+<--- fim analise <constante>
+token: 22, lexema: '-' (10, 16)
+---> analisando <constante>
+token: 51, lexema: '3' (10, 17)
+token: 06, lexema: ',' (10, 18)
+<--- fim analise <constante>
+token: 51, lexema: '7' (10, 20)
+---> analisando <constante>
+token: 08, lexema: ':' (10, 22)
+<--- fim analise <constante>
+token: 41, lexema: 'a' (11, 17)
+---> analisando <comando>
+token: 11, lexema: ':=' (11, 19)
+token: 04, lexema: '(' (11, 22)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 04, lexema: '(' (11, 23)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 41, lexema: 'b' (11, 24)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 23, lexema: '*' (11, 25)
+<--- fim analise <fator>
+token: 51, lexema: '37' (11, 26)
+---> analisando <fator>
+token: 05, lexema: ')' (11, 28)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+token: 24, lexema: '/' (11, 29)
+<--- fim analise <fator>
+token: 51, lexema: '48' (11, 30)
+---> analisando <fator>
+token: 22, lexema: '-' (11, 32)
+<--- fim analise <fator>
+<--- fim analise <termo>
+token: 04, lexema: '(' (11, 33)
+---> analisando <termo>
+---> analisando <fator>
+token: 51, lexema: '5' (11, 34)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 21, lexema: '+' (11, 35)
+<--- fim analise <fator>
+<--- fim analise <termo>
+token: 22, lexema: '-' (11, 36)
+---> analisando <termo>
+---> analisando <fator>
+<--- fim analise <fator>
+<--- fim analise <termo>
+token: 51, lexema: '2' (11, 37)
+---> analisando <termo>
+---> analisando <fator>
+token: 05, lexema: ')' (11, 38)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+token: 05, lexema: ')' (11, 39)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+token: 22, lexema: '-' (11, 41)
+<--- fim analise <fator>
+<--- fim analise <termo>
+token: 41, lexema: 'romeo' (11, 43)
+---> analisando <termo>
+---> analisando <fator>
+token: 03, lexema: ';' (11, 48)
 <--- fim analise <fator>
 <--- fim analise <termo>
 <--- fim analise <expressaoSimples>
 <--- fim analise <expressao>
 <--- fim analise <comando>
-token: 63, lexema: 'fim' (11, 1)
+<--- fim analise <opcaoCaso>
+token: 22, lexema: '-' (12, 13)
+---> analisando <opcaoCaso>
+---> analisando <constante>
+token: 52, lexema: '98.2' (12, 14)
+token: 08, lexema: ':' (12, 19)
+<--- fim analise <constante>
+token: 41, lexema: 'a' (13, 17)
+---> analisando <comando>
+token: 11, lexema: ':=' (13, 19)
+token: 41, lexema: 'b' (13, 22)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 03, lexema: ';' (13, 23)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+<--- fim analise <comando>
+<--- fim analise <opcaoCaso>
+token: 69, lexema: 'senao' (14, 13)
+<--- fim analise <listaOpcoes>
+token: 41, lexema: 'teste' (15, 17)
+---> analisando <comando>
+token: 11, lexema: ':=' (15, 22)
+token: 41, lexema: 'alpha' (15, 25)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 03, lexema: ';' (15, 30)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+<--- fim analise <comando>
+token: 63, lexema: 'fim' (16, 9)
+token: 03, lexema: ';' (16, 12)
+<--- fim analise <comando>
+token: 67, lexema: 'se' (19, 9)
+---> analisando <comando>
+token: 04, lexema: '(' (19, 12)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 04, lexema: '(' (19, 13)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 41, lexema: 'a' (19, 14)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 35, lexema: '>=' (19, 15)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+token: 04, lexema: '(' (19, 17)
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 41, lexema: 'b' (19, 18)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 22, lexema: '-' (19, 19)
+<--- fim analise <fator>
+<--- fim analise <termo>
+token: 41, lexema: 'c' (19, 20)
+---> analisando <termo>
+---> analisando <fator>
+token: 05, lexema: ')' (19, 21)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+token: 05, lexema: ')' (19, 22)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+token: 77, lexema: 'e' (19, 24)
+<--- fim analise <fator>
+token: 04, lexema: '(' (19, 26)
+---> analisando <fator>
+token: 41, lexema: 'c' (19, 27)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 31, lexema: '=' (19, 28)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+token: 41, lexema: 'delta' (19, 29)
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 05, lexema: ')' (19, 34)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+token: 05, lexema: ')' (19, 35)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+token: 78, lexema: 'ou' (19, 37)
+<--- fim analise <fator>
+<--- fim analise <termo>
+token: 04, lexema: '(' (19, 40)
+---> analisando <termo>
+---> analisando <fator>
+token: 41, lexema: 'beta' (19, 41)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 34, lexema: '<' (19, 46)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+token: 41, lexema: 'delta' (19, 48)
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 05, lexema: ')' (19, 53)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+token: 68, lexema: 'entao' (19, 55)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+token: 41, lexema: 'alpha' (20, 13)
+---> analisando <comando>
+token: 11, lexema: ':=' (20, 19)
+token: 41, lexema: 'beta' (20, 22)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 03, lexema: ';' (20, 26)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+<--- fim analise <comando>
+<--- fim analise <comando>
+token: 41, lexema: 'delta' (22, 9)
+---> analisando <comando>
+token: 11, lexema: ':=' (22, 15)
+token: 41, lexema: 'analiselexica' (22, 18)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 03, lexema: ';' (22, 31)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+<--- fim analise <comando>
+token: 72, lexema: 'enquanto' (25, 9)
+---> analisando <comando>
+token: 04, lexema: '(' (25, 18)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 41, lexema: 'beta' (25, 19)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 31, lexema: '=' (25, 24)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+token: 41, lexema: 'alpha' (25, 26)
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 05, lexema: ')' (25, 31)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+token: 73, lexema: 'faca' (25, 33)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+token: 62, lexema: 'inicio' (26, 13)
+---> analisando <comando>
+token: 41, lexema: 'beta' (27, 17)
+---> analisando <listaComandos>
+---> analisando <comando>
+token: 11, lexema: ':=' (27, 22)
+token: 41, lexema: 'charlie' (27, 25)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 03, lexema: ';' (27, 32)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+<--- fim analise <comando>
+token: 41, lexema: 'charlie' (28, 17)
+---> analisando <comando>
+token: 11, lexema: ':=' (28, 25)
+token: 41, lexema: 'beta' (28, 28)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 03, lexema: ';' (28, 32)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+<--- fim analise <comando>
+token: 63, lexema: 'fim' (29, 13)
 <--- fim analise <listaComandos>
-token: 07, lexema: '.' (11, 4)
+token: 03, lexema: ';' (29, 16)
+<--- fim analise <comando>
+<--- fim analise <comando>
+token: 76, lexema: 'para' (32, 9)
+---> analisando <comando>
+token: 41, lexema: 'delta' (32, 14)
+token: 11, lexema: ':=' (32, 20)
+token: 04, lexema: '(' (32, 23)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 52, lexema: '477.89' (32, 24)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 22, lexema: '-' (32, 31)
+<--- fim analise <fator>
+<--- fim analise <termo>
+token: 22, lexema: '-' (32, 33)
+---> analisando <termo>
+---> analisando <fator>
+<--- fim analise <fator>
+<--- fim analise <termo>
+token: 52, lexema: '569.23' (32, 34)
+---> analisando <termo>
+---> analisando <fator>
+token: 05, lexema: ')' (32, 40)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+token: 75, lexema: 'ate' (32, 42)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+token: 04, lexema: '(' (32, 46)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 41, lexema: 'charlie' (32, 47)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 23, lexema: '*' (32, 55)
+<--- fim analise <fator>
+token: 41, lexema: 'romeo' (32, 57)
+---> analisando <fator>
+token: 05, lexema: ')' (32, 62)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+token: 73, lexema: 'faca' (32, 64)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+token: 41, lexema: 'beta' (33, 13)
+---> analisando <comando>
+token: 11, lexema: ':=' (33, 18)
+token: 41, lexema: 'beta' (33, 21)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 22, lexema: '-' (33, 26)
+<--- fim analise <fator>
+<--- fim analise <termo>
+token: 22, lexema: '-' (33, 28)
+---> analisando <termo>
+---> analisando <fator>
+<--- fim analise <fator>
+<--- fim analise <termo>
+token: 51, lexema: '1' (33, 29)
+---> analisando <termo>
+---> analisando <fator>
+token: 03, lexema: ';' (33, 30)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+<--- fim analise <comando>
+<--- fim analise <comando>
+token: 74, lexema: 'repita' (36, 9)
+---> analisando <comando>
+token: 41, lexema: 'beta' (37, 13)
+---> analisando <listaComandos>
+---> analisando <comando>
+token: 11, lexema: ':=' (37, 18)
+token: 41, lexema: 'charlie' (37, 21)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 03, lexema: ';' (37, 28)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+<--- fim analise <comando>
+token: 41, lexema: 'alpha' (38, 13)
+---> analisando <comando>
+token: 11, lexema: ':=' (38, 19)
+token: 41, lexema: 'charlie' (38, 22)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 03, lexema: ';' (38, 29)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+<--- fim analise <comando>
+token: 41, lexema: 'beta' (39, 13)
+---> analisando <comando>
+token: 11, lexema: ':=' (39, 18)
+token: 41, lexema: 'alpha' (39, 21)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 03, lexema: ';' (39, 26)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+<--- fim analise <comando>
+token: 75, lexema: 'ate' (40, 9)
+<--- fim analise <listaComandos>
+token: 04, lexema: '(' (40, 13)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 41, lexema: 'analisesintatica' (40, 14)
+---> analisando <expressao>
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 35, lexema: '>=' (40, 31)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+token: 51, lexema: '2' (40, 34)
+---> analisando <expresaoSimples>
+---> analisando <termo>
+---> analisando <fator>
+token: 05, lexema: ')' (40, 35)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+token: 03, lexema: ';' (40, 36)
+<--- fim analise <fator>
+<--- fim analise <termo>
+<--- fim analise <expressaoSimples>
+<--- fim analise <expressao>
+<--- fim analise <comando>
+token: 63, lexema: 'fim' (43, 1)
+<--- fim analise <listaComandos>
+token: 07, lexema: '.' (43, 4)
 <--- fim analise <blocoPascal>
-token: -1, lexema: 'EOF' (11, 5)
+token: -1, lexema: 'EOF' (44, 1)
 ###### FIM DO PROGRAMA. ######
 <--- fim analise <programaPascal>
