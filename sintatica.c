@@ -125,11 +125,15 @@ void cabecalho() {
                 declaracaoVariaveis();
                 if(nextToken == SEMICOLON) {
                     lex();
+                } else {
+                    ERROR(SEMICOLON);
                 }
             }
         } else {
             ERROR(SEMICOLON);
         }
+    } else {
+        ERROR(VAR_CODE);
     }
     
     fprintf(out,"<--- fim analise <cabecalho>\n");
@@ -167,11 +171,10 @@ void programaPascal() {
     if(nextToken == POINT) {
         lex();
         if(nextToken == EOF) {
-            fprintf(out,"###### FIM DO PROGRAMA. ######\n");
-            //exit(100);
+            fprintf(out,"###### FIM DO PROGRAMA. ######\n");            
         } else {
             fprintf(out,">>> ERROR: instrucoes apos o ponto final\n");
-            exit(0);
+            exit(99);
         }
     } else {
         ERROR(POINT);
@@ -361,7 +364,7 @@ void comando() {
             break;
         default:
             fprintf(out,">>> ERROR comando nao encontrado\n");
-            exit(0);
+            exit(99);
     }
     
     fprintf(out,"<--- fim analise <comando>\n");
@@ -435,7 +438,7 @@ void fator() {
         }
     } else if(nextToken != ADD_OP && nextToken != SUB_OP && nextToken != OU_CODE) {
         fprintf(out,">>> ERROR fator(): proximo simbolo invalido\n");
-        exit(0);
+        exit(99);
     }
     
     fprintf(out,"<--- fim analise <fator>\n");
