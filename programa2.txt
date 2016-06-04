@@ -1,0 +1,9 @@
+programa programapronto;
+
+    var final : inteiro;        
+
+inicio
+
+final := 1;
+        
+fim.

@@ -1,0 +1,43 @@
+programa trabalhoparadigmas(analiselexica, analisesintatica);
+
+
+    var alpha, beta : inteiro;
+        delta, romeo : real;
+
+    inicio
+
+        caso nao(alpha>=beta) escolha
+            5, -3, 7 : 
+                a := ((b*37)/48-(5+-2)) - romeo;
+            -98.2 : 
+                a := b;
+            senao 
+                teste:= alpha;
+        fim;
+
+    
+        se ((a>=(b-c)) e (c=delta)) ou (beta < delta) entao
+            alpha := beta;
+
+        delta := analiselexica;
+
+
+        enquanto (beta = alpha) faca
+            inicio
+                beta := charlie;
+                charlie := beta;
+            fim;
+
+            
+        para delta := (477.89 - -569.23) ate (charlie * romeo) faca
+            beta := beta - -1;
+        
+           
+        repita
+            beta := charlie;
+            alpha := charlie;
+            beta := alpha;
+        ate (analisesintatica >= 2);
+
+        
+fim.
